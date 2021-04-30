@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Ricardo-Camera",
+    "slug": "MeuAppCamera",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6E332"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F6E332"
+      },
+      "package": "com.ricardaor10jr.MeuAppCamera"
+    }
+  }
+}
